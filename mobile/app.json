@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "AAMed",
+    "slug": "mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "package": "com.tcc.tccsenai",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBAJxkbJDUINqKFwXs-WGy-S7W-yD2ueJ4"
+        }
+      }
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004B8B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

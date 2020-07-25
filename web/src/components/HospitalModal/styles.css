@@ -1,0 +1,23 @@
+.modal-hospital {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal-hospital > div {
+  background-color: #fff;
+  width: 550px;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+}
+.modal-hospital > div div:nth-child(2) h2 {
+  margin-left: 18px;
+  font-weight: normal;
+}

@@ -1,0 +1,241 @@
+.error-support {
+  color: #e9103f;
+}
+
+.success-support {
+  color: #06ac2a;
+}
+
+.content-support {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(
+    141deg,
+    #8acae2 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+}
+.content-support div:nth-child(1) h2 {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 1.2px;
+}
+.content-support div:nth-child(1) span {
+  color: #f7f7f5;
+}
+.content-support div:nth-child(1) a {
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  background-color: #196293;
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s all;
+}
+.content-support div:nth-child(1) a:hover {
+  background-color: #2196f3;
+}
+.content-support div:nth-child(2) img {
+  display: block;
+  max-width: 100%;
+  width: 420px;
+}
+.support-types {
+  margin: 23px 0;
+}
+.support-types h2 {
+  color: #52c8fa;
+  font-size: 35px;
+  text-align: center;
+}
+.line {
+  width: 80%;
+  margin: 15px auto;
+  height: 1.2px;
+  background-color: #ccc;
+}
+.support-user {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 320px;
+  flex-wrap: wrap;
+}
+
+.support-user > div {
+  margin: 20px 0;
+  width: 320px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.support-user > div span {
+  display: block;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #7a7a7a55;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px #d6d6d699;
+  animation: fade 0.4s;
+  overflow: hidden;
+}
+
+.content-form-support {
+  text-align: center;
+}
+
+.content-form-support h1 {
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+
+.form-support {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.top-form,
+.middle-form,
+.bottom-form {
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.form-support input,
+.form-support textarea {
+  padding: 15px 5px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #52c8fa;
+  border-radius: 2px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-support input:focus,
+.form-support textarea:focus {
+  border-color: #2196f3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+    0 0 8px rgba(76, 161, 175, 0.5);
+}
+
+.form-support .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.middle-form {
+  clear: both;
+}
+
+.bottom-form textarea {
+  height: 120px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  background: #52c8fa;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 2px;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 5px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn button:hover,
+.btn button:active {
+  background: #2196f3;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* animations */
+
+.top-form {
+  animation: movee 500ms;
+  animation-delay: 150ms;
+  /* name, duration, fill-mode*/
+}
+
+.middle-form {
+  animation: movee 500ms backwards;
+  animation-delay: 350ms;
+}
+
+.bottom-form {
+  animation: movee 400ms backwards;
+  animation-delay: 550ms;
+}
+
+.btn {
+  animation: moveeButton 400ms backwards;
+  animation-delay: 650ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes movee {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveeButton {
+  from {
+    opacity: 0;
+    transform: translateY(250%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin: 25px auto 0;
+  }
+}

@@ -1,0 +1,171 @@
+.container-logged {
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.container-logged::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.flex img {
+  box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.open-config {
+  display: none;
+}
+.items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  color: #0d9ddb;
+  border-bottom: 1px solid #ccc;
+  transition: 0.3s all;
+  background-color: white;
+}
+
+.items span {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.config > div:hover {
+  background-color: #e3e5e8;
+}
+.config > div {
+  padding: 22px;
+  color: #0d9ddb;
+  border-bottom: 1px solid #ccc;
+  transition: 0.3s all;
+}
+.config > div svg {
+  float: left;
+}
+.config label {
+  display: block;
+  margin-left: 45px;
+  text-transform: uppercase;
+}
+.info-config {
+  height: 0px;
+  display: none;
+  transition: 0.4s all;
+  margin-top: 20px;
+}
+.info-config a {
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s all;
+  color: #0d9ddb;
+  transition: 0.4s all;
+}
+.info-config a:hover {
+  background-color: #0d9ddb;
+  color: #fff;
+}
+input:checked ~ .info-config {
+  display: block;
+  height: 130px;
+}
+input:checked ~ .info-config a {
+  opacity: 1;
+}
+.items:hover {
+  background-color: #e3e5e8;
+}
+
+.bgcolorClick {
+  background-color: #e3e5e8;
+}
+.items:nth-child(6) {
+  background-color: white;
+  border-bottom: none;
+}
+.hidden {
+  display: none;
+}
+.click {
+  cursor: pointer;
+}
+.logout span {
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #e82c2c;
+  transition: all 0.5s;
+}
+.logout span:hover {
+  filter: brightness(0.91);
+}
+.treatments {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.treatments > div {
+  width: 50%;
+  margin: 25px 0;
+}
+.treatments .espera {
+  border-right: 1.5px solid rgb(95, 94, 94);
+}
+.treatments .caminho {
+  border-right: 1.5px solid rgb(95, 94, 94);
+}
+.treatments div h2 {
+  text-align: center;
+}
+.user-help {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 80%;
+  border-bottom: 1.5px solid #999;
+}
+.user-help span {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.user-help div {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.user-help div button {
+  outline: none;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0d9ddb;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: filter 0.4s;
+}
+
+.user-help div button:nth-child(1) {
+  background-color: #10b341;
+}
+
+.user-help div button:nth-child(2) {
+  background-color: #e82c2c;
+}
+
+.user-help div button:nth-child(1):hover {
+  filter: brightness(90%);
+}
+.user-help div button:nth-child(2):hover {
+  filter: brightness(80%);
+}

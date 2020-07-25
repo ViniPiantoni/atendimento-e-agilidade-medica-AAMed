@@ -1,0 +1,44 @@
+.update-form {
+  max-width: 980px;
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.update-form h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 10px;
+  color: #999;
+}
+.update-form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.update-form > div label {
+  margin-bottom: 5px;
+}
+.update-form > div input {
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.update-form > div button {
+  height: 38px;
+  border: none;
+  background: #52c8fa;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.update-form > div button:hover {
+  background-color: #10b341;
+}

@@ -1,0 +1,72 @@
+.container-hospitals {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1 1 500px;
+}
+.box {
+  width: 500px;
+  margin: 25px 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 5px;
+}
+.box .btnOpen {
+  border: 0;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #52c8fa;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.box .btnOpen:hover {
+  background-color: #2196f3;
+}
+.btnClose {
+  position: fixed;
+  right: 25%;
+  top: 20%;
+  border: 0;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.menu-hospitals {
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.back {
+  float: none;
+  margin-left: 0px;
+}
+.back button {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s all;
+}
+.notFound {
+  height: 200px;
+  width: 450px;
+  padding: 15px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}

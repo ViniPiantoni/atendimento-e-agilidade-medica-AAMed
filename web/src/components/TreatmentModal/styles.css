@@ -1,0 +1,31 @@
+.modal-treatment {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1 1 500px;
+
+  border-top: 1px solid #ccc;
+}
+.modal-treatment > h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.modal-treatment > div {
+  display: flex;
+  width: 600px;
+  margin: 25px 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 5px;
+}
+.modal-treatment > div h2 {
+  margin: 10px 0;
+}
+.modal-treatment > div div:nth-child(2) {
+  margin-left: 15px;
+}
+.modal-treatment > div div:nth-child(2) h2:last-child {
+  margin-top: 25px;
+}

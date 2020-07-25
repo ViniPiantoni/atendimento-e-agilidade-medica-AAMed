@@ -1,0 +1,109 @@
+.profile {
+  /* background-image: linear-gradient(141deg, #8acae2 0%, #1fc8db 51%, #2cb5e8 75%); */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.menu-profile {
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.back {
+  float: none;
+  margin-left: 0px;
+}
+.back button {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s all;
+}
+.edit-profile button {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s all;
+}
+.edit-profile button a {
+  text-decoration: underline;
+  padding: 8px 12px;
+  color: #000;
+}
+.edit-profile button:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.back button:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.container-profile {
+  width: 820px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 18px -2px #000;
+}
+.container-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+}
+.container-top > div:nth-child(2) {
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.container-top > div:nth-child(2) h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+.container-top > div:nth-child(2) span {
+  display: flex;
+  color: rgb(124, 124, 124);
+}
+.container-top > div:nth-child(2) span p {
+  font-size: 18px;
+}
+.container-top .container-img {
+  text-align: center;
+}
+.container-top .container-img img {
+  max-width: 60%;
+  padding: 10px;
+}
+.container-bottom > h2 {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(124, 124, 124);
+  margin: 15px 0;
+}
+.content-bottom {
+  display: flex;
+  justify-content: center;
+}
+.content-bottom > div {
+  margin: 5px 25px;
+}
+.content-bottom > div:nth-child(1) {
+  border-right: 1px solid #ddd;
+  width: 100px;
+}
+.content-bottom > div h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
