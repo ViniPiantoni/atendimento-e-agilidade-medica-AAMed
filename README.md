@@ -4,11 +4,34 @@
 
 <h3 align="center">AAMED - Atendimento e Agilidade Médica</h3>
 
-<div align="center">  
-  <a href="https://github.com/Silva4g/TCC/blob/master/LICENSE">
+<div align="center"> 
+
+  <a href="https://www.linkedin.com/in/vinicius-piantoni-328339186">
+    <img alt="v-piantoni" src="https://img.shields.io/badge/made%20by-Vinicius%20Piantoni-brightgreen" />
+  </a>
+
+  <a href="https://github.com/ViniPiantoni/atendimento-e-agilidade-medica-AAMed/blob/master/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />
   </a>
+
 </div>
+
+---
+
+### 📺 Apresentação:
+
+A <strong>AAMed(Atendimento e Agilidade Médica)</strong> é uma aplicação de conclusão final de curso com intuito em melhorar o precário sistema de saúde. Nossas plataformas <strong>web</strong> e <strong>mobile</strong> agilizam todo o processo de atendimento e gerenciamento dos hospitais, assim aplicando maior perfomance e rapidez ao paciente.
+
+<h3 align="center">
+    <img alt="projeto" title="#projeto" width="1000px" src=".github/projeto.png">
+</h3>
+
+#### 📖 Quer ler toda a documentação do AAMed?
+
+```sh
+    # Copie e cole o link abaixo na url do seu navegador.
+    https://drive.google.com/drive/folders/1jynmeeJ6NW_d5pvqd3iTFkesokCY0iLB?usp=sharing
+```
 
 ---
 
@@ -24,12 +47,12 @@
 
 ---
 
-### :fire: Como usar
+### :fire: Instalação e inicialização
 
 #### Pré-requisitos
 
 - É <strong>necessário</strong> ter instalado o [Node.js](https://nodejs.org/en/) qualquer versão <strong>acima de 10</strong>.
-- Instalar o [NPM](https://www.npmjs.com/get-npm) ou [YARN](https://classic.yarnpkg.com/pt-BR/docs/install/) (recomendamos o YARN).
+- Instalar o [NPM](https://www.npmjs.com/get-npm) ou [YARN](https://classic.yarnpkg.com/pt-BR/docs/install/) (recomendamos o NPM).
 - <strong>Não precisa </strong>instalar o banco de dados na máquina pois o mesmo está na nuvem.
 - Instalar o [Expo](https://expo.io/learn) globalmente.
 - <strong>Recomendamos</strong> instalar o editor [VSCode](https://code.visualstudio.com/download).
@@ -38,7 +61,7 @@
 ##### 1º :page_facing_up: Faça o clone no repositório:
 
 ```sh
-    $ git clone https://github.com/Silva4g/TCC.git
+    $ git clone https://github.com/ViniPiantoni/atendimento-e-agilidade-medica-AAMed.git
 ```
 
 ##### 2º :fast_forward: Instale as dependências usando NPM ou YARN e execute a aplicação:
@@ -150,6 +173,15 @@
 - toggle-switch-react-native
 - socket.io-client
 - styled-components
+
+---
+
+### 👥 Como contribuir
+
+- Faça um fork desse repositório
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Faça um push para sua branch: `git push origin my-feature`
 
 ---
 
