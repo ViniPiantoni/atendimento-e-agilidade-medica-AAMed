@@ -101,7 +101,7 @@ Antes de iniciar a aplicação mobile é necessário que você adicione sua chav
 
 ```sh
 
-    # Copie e cole o link abaixo na url do seu navegador para ter obter informações de como gerar a chave
+    # Copie e cole o link abaixo na url do seu navegador para obter informações de como gerar a chave
     https://cloud.google.com/maps-platform/
 
     # Em seguida, cole a chave no local referenciado abaixo:
@@ -111,9 +111,6 @@ Antes de iniciar a aplicação mobile é necessário que você adicione sua chav
         }
       }
 
-```
-
-```sh
     # Pelo prompt de comando entre na pasta mobile
     $ cd tcc/mobile
 
