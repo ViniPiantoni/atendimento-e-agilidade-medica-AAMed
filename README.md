@@ -97,6 +97,22 @@ A <strong>AAMed( Atendimento e Agilidade Médica )</strong> é uma aplicação d
 
 - Iniciando a aplicação mobile
 
+Antes de iniciar a aplicação mobile é necessário que você adicione sua chave da [API](https://cloud.google.com/maps-platform/) do Google Maps. Vá na pasta <strong>mobile</strong> e em seguida no arquivo <strong>app.json</strong> e cole a chave.
+
+```sh
+
+    # Copie e cole o link abaixo na url do seu navegador para ter obter informações de como gerar a chave
+    https://cloud.google.com/maps-platform/
+
+    # Em seguida, cole a chave no local referenciado abaixo:
+     "config": {
+        "googleMaps": {
+          "apiKey": "sua_chave_aqui"
+        }
+      }
+
+```
+
 ```sh
     # Pelo prompt de comando entre na pasta mobile
     $ cd tcc/mobile

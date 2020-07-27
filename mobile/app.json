@@ -9,7 +9,7 @@
       "package": "com.tcc.tccsenai",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBAJxkbJDUINqKFwXs-WGy-S7W-yD2ueJ4"
+          "apiKey": "sua_chave_aqui"
         }
       }
     },
