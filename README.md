@@ -20,10 +20,10 @@
 
 ### 📺 Apresentação:
 
-A <strong>AAMed(Atendimento e Agilidade Médica)</strong> é uma aplicação de conclusão final de curso com intuito em melhorar o precário sistema de saúde. Nossas plataformas <strong>web</strong> e <strong>mobile</strong> agilizam todo o processo de atendimento e gerenciamento dos hospitais, assim aplicando maior perfomance e rapidez ao paciente.
+A <strong>AAMed( Atendimento e Agilidade Médica )</strong> é uma aplicação de conclusão final de curso com intuito em melhorar o precário sistema de saúde. Nossas plataformas <strong>web</strong> e <strong>mobile</strong> agilizam todo o processo de atendimento e gerenciamento dos hospitais, assim aplicando maior perfomance e rapidez ao paciente.
 
 <h3 align="center">
-    <img alt="projeto" title="#projeto" width="1000px" src=".github/projeto.png">
+    <img alt="projeto" title="#projeto" width="500px" src=".github/projeto.png">
 </h3>
 
 #### 📖 Quer ler toda a documentação do AAMed?
@@ -91,7 +91,7 @@ A <strong>AAMed(Atendimento e Agilidade Médica)</strong> é uma aplicação de 
     # Inicie a aplicação
     $ yarn start
 
-    # Automáticamente será aberta uma janela no seu navegador padrão.
+    # Automaticamente será aberta uma janela no seu navegador padrão.
     # Caso isso não ocorra acesse: localhost:3000.
 ```
 
@@ -113,6 +113,15 @@ A <strong>AAMed(Atendimento e Agilidade Médica)</strong> é uma aplicação de 
     # O Expo irá abrir no terminal e/ou no navegador.
     # Você precisa apenas escanear o QRcode com seu dispositivo fisico ou rodar a aplicação no seu emulador.
 ```
+
+---
+
+### 👥 Como contribuir
+
+- Faça um fork desse repositório
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Faça um push para sua branch: `git push origin my-feature`
 
 ---
 
@@ -173,15 +182,6 @@ A <strong>AAMed(Atendimento e Agilidade Médica)</strong> é uma aplicação de 
 - toggle-switch-react-native
 - socket.io-client
 - styled-components
-
----
-
-### 👥 Como contribuir
-
-- Faça um fork desse repositório
-- Crie uma branch com a sua feature: `git checkout -b my-feature`
-- Commit suas mudanças: `git commit -m 'feat: My new feature'`
-- Faça um push para sua branch: `git push origin my-feature`
 
 ---
 
